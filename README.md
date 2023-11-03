@@ -14,4 +14,5 @@ python3 main.py
 ```
 
 ## TODO
+- cli argument parsing
 - generation of setters and getters functions
