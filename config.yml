@@ -1,8 +1,11 @@
-headers:
+system_headers:
   - iostream
   - cstdlib
   - vector
   - string
+
+project_headers:
+  - animal.h
 
 classes:
   Entity:
@@ -12,8 +15,8 @@ classes:
           - float y
           - std::string name
         private:
-          - int z
-    getter_setters: on
+            - int z
+    getters_setters: on
 
   Student:
     attributes:
@@ -21,3 +24,4 @@ classes:
           - int id
           - std::string name
           - double moy
+    getters_setters: on
